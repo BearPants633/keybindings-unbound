@@ -1,0 +1,9 @@
+/* any CSS entered here should appear on all pages of the website */
+/* Color pallet http://paletton.com/#uid=74Z0Z0kuiiUvNtru4nlwudexs7O */
+/* base color 66,66,62 grey */
+
+body {
+    background: rgb(66,66,62);
+    font-family: sans-serif;
+    color: rgb(205, 205, 205);
+}
