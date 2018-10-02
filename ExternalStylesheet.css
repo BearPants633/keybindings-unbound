@@ -24,6 +24,11 @@ h4 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
 h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .button {cursor: pointer; }
 .button:hover {
   background-color: rgb(186, 74, 11);
@@ -79,4 +84,9 @@ ul {
 
 .keyboard {
   width: 100%;
+}
+
+.landscape {
+    width: 100%;
+    height: auto;
 }
