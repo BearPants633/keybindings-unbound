@@ -26,7 +26,7 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
 .button {cursor: pointer; }
 .button:hover {
-  background-color: rgb(235, 86, 2);
+  background-color: rgb(186, 74, 11);
   color: rgb(62, 22, 0); }
 .button:active {
   background-color: rgb(186, 74, 11);
@@ -76,3 +76,7 @@ ul {
 
 .main-body {
   margin: 2%; }
+
+.keyboard {
+  width: 100%;
+}
