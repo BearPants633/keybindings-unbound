@@ -89,10 +89,10 @@ ul {
 
 .main-body {
   margin: 2%;
-  margin-top: 0;
-  transform: translateY(10rem);
+  margin-top: 10rem;
+  /*transform: translateY(10rem); */
   height: auto;
-  width: 100%;
+  width: 96%;
   overflow: auto;
   float: none;
   display: table; }
@@ -104,7 +104,7 @@ ul {
   float: left; }
 
 .landscape {
-  max-width: 49%;
+  max-width: 48%;
   margin-top: 1.2rem;
   height: auto;
   width: 100%;
@@ -115,8 +115,6 @@ ul {
   border-top: solid;
   border-color: rgb(1, 155, 108);
   background-color: white;
-  position: absolute;
-  width: 98%;
+  width: 99%;
   /*background-color: rgb(37, 37, 37);*/
-  bottom: 0;
-  box-sizing: border-box; }
+  bottom: 0; }
