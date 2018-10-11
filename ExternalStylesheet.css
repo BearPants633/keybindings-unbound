@@ -80,6 +80,8 @@ img {
   top: 0;
   z-index: 10; }
 
+.wrapper { height: auto; }
+
 ul {
   display: flex;
   padding-left: 0px;
@@ -89,20 +91,24 @@ ul {
   margin: 2%;
   margin-top: 0;
   transform: translateY(10rem);
-  height: 100%;
-  overflow:auto; }
+  height: auto;
+  width: 100%;
+  overflow: auto;
+  float: none;
+  display: table; }
 
 #body-content {
   max-width: 49%;
-  position: absolute;
-  height: 100%; }
+  width: 100%;
+  height: auto;
+  float: left; }
 
 .landscape {
   max-width: 49%;
-  height: auto;
-  position: absolute;
   margin-top: 1.2rem;
-  height: 100%; }
+  height: auto;
+  width: 100%;
+  float: right; }
 
 .foot {
   height: 6rem;
