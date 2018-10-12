@@ -3,7 +3,9 @@
 /* base color 66,66,62 grey */
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  height: 100%;
+  overflow: auto; }
 
 body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
@@ -80,7 +82,8 @@ img {
   top: 0;
   z-index: 10; }
 
-.wrapper { height: auto; }
+.wrapper {
+  height: 100%; }
 
 ul {
   display: flex;
@@ -92,8 +95,7 @@ ul {
   margin-top: 10rem;
   /*transform: translateY(10rem); */
   height: auto;
-  width: 96%;
-  overflow: auto;
+  width: 100%;
   float: none;
   display: table; }
 
@@ -116,5 +118,7 @@ ul {
   border-color: rgb(1, 155, 108);
   background-color: white;
   width: 99%;
-  /*background-color: rgb(37, 37, 37);*/
-  bottom: 0; }
+  width: 98%;
+  /* background-color: rgb(37, 37, 37); */
+  position: relative;
+  bottom: 0;}
