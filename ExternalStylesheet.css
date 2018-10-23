@@ -77,16 +77,17 @@ img {
   border-bottom: solid;
   border-color:rgb(235, 83, 2);
   padding: 0 2% 0.75em 2%;
-  position: fixed;
+  position: sticky;
   box-sizing: border-box;
-  width: calc(100% - 8px);
+  width: 100%;
   background-color: rgb(37, 37, 37);
   box-sizing: border-box;
   z-index: 10;
+  top: 0;
   grid-row: 1 / 2; }
 
 .wrapper {
-  height: 100%;
+  height: 99.6%;
   display: grid;
   grid-template-rows: 9.5rem auto 6rem;}
 
