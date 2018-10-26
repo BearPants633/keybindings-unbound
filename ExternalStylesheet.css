@@ -58,8 +58,10 @@ img {
   vertical-align: middle;
   margin-left: 1%;
   margin-right: 1%;
+  margin-bottom: 2%;
   border-radius: 1.0rem;
   height: 3.5rem;
+  min-width: 75px;
   text-rendering: optimizeLegibility;
   line-height: 2.75rem;
   border-width: thick;
@@ -157,6 +159,14 @@ ul {
     h5 { font-size: 3.6vw;}
     h6 { font-size: 3vw;}
     .menu-top {
-      display: flex;
-      flex-direction: column;}
+      flex-wrap: wrap;
+      height: 50%}
+    .menu-option {
+      max-width: 40%;
+      flex-basis: 100px;}
+    .wrapper { grid-template-rows: auto auto 6rem;}
   }
+
+    @media screen and (max-width:300px) {
+      .wrapper { grid-template-rows: 16.55rem auto 6rem;}
+}
