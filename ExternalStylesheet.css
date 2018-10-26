@@ -64,6 +64,7 @@ img {
   min-width: 75px;
   text-rendering: optimizeLegibility;
   line-height: 2.75rem;
+  text-decoration: none;
   border-width: thick;
   border-style: outset;
   border-color: rgb(235, 83, 2);
