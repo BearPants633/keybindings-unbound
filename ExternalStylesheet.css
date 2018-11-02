@@ -7,10 +7,10 @@ html {
   height: 100%;
   overflow: auto;
   display: grid;
-  min-width: 200px;}
+  min-width: 233px;}
 
 body {
-  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-size: 1.5rem; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   background: rgb(37,37,37);
   font-family: sans-serif;
@@ -150,7 +150,7 @@ ul {
   bottom: 0;
   grid-row: 3 / 4; }
 
-  @media screen and (max-width:500px) {
+  @media screen and (max-width:800px) {
     .main-body {flex-direction: column}
     .landscape {max-width: 100%}
     #body-content { max-width: 100%;}
@@ -164,7 +164,7 @@ ul {
       flex-wrap: wrap;
       height: 50%}
     .menu-option {
-      max-width: 40%;
+      max-width: 100%;
       flex-basis: 100px;}
     .wrapper { grid-template-rows: auto auto 6rem;}
   }
